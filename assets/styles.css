@@ -1,0 +1,14 @@
+﻿/* Shared site stylesheet */
+:root{--bg:#f4f4f4;--card:#ffffff;--primary:#1a73e8;--muted:#666;--accent:#3498db;--text:#333}
+html,body{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg)}
+.container{max-width:1000px;margin:0 auto;padding:20px}
+header{text-align:center;margin-bottom:18px}
+nav{background:var(--card);padding:15px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.06)}
+nav ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:8px}
+nav a{color:var(--primary);text-decoration:none}
+h1{color:#2c3e50;margin:0}
+.intro{margin:18px 0}
+.note{font-size:90%;color:var(--muted)}
+.section{background:var(--card);padding:20px;margin:20px 0;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,0.04)}
+.section h2,.section h3{margin-top:0}
+footer{font-size:90%;color:var(--muted);text-align:center;margin-top:30px}
