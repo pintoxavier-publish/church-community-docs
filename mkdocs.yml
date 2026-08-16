@@ -1,0 +1,37 @@
+site_name: "Community Empowerment Action Plan"
+site_description: "Syro-Malabar community empowerment and action plan"
+
+nav:
+  - Home: index.md
+  - Youth and Marriage:
+      - Youth and Marriage Simplicity: 01-youth-and-marriage-simplicity.md
+      - Youth Retention and Starter Housing: 02-youth-retention-and-starter-housing.md
+      - Interfaith Marriage Risk Analysis: 03-interfaith-marriage-risk-analysis.md
+  - Health and Family Physician Culture:
+      - From Mega Hospitals to Local Clinics: 04-local-health-clinics-vs-mega-hospitals.md
+      - Family Physician Culture and Preventive Care: 05-family-physician-and-preventive-care.md
+      - Emergency Response and Elderly Care: 06-emergency-response-and-elderly-care.md
+  - Media Awareness and Road Safety:
+      - Social Media Trends and Premature Death Among Young Men: 07-social-media-influences-and-road-safety.md
+      - Driving and Water Safety Initiatives: 08-driving-and-water-safety-initiatives.md
+  - Education Reform and Life Skills:
+      - Sunday School Reform and Life Skills: 09-sunday-school-reform-and-life-skills.md
+      - Financial Literacy and EHS Practices: 10-financial-literacy-and-ehs-practices.md
+      - Surviving and Succeeding in India: 11-surviving-and-succeeding-in-india.md
+  - Employment, Technology and AI:
+      - Moving Beyond the PSC Mindset with AI Labs: 12-ai-labs-and-beyond-psc-mentality.md
+      - Rent-Free Startups and Micro-Manufacturing: 13-rent-free-startups-and-micro-manufacturing.md
+  - Infrastructure and Development Reform:
+      - Stop New Construction and Repurpose Existing Homes: 14-repurposing-homes-and-stopping-construction.md
+      - Economic Activity Zones and School Consolidation: 15-economic-zones-and-school-consolidation.md
+  - Copyright and Cyber Security:
+      - Liturgical Copyright and Cyber Security: 16-liturgical-copyright-and-cyber-security.md
+      - Digital Liturgical Displays and Qurbana Access: 17-digital-liturgical-displays-and-qurbana-access.md
+  - Social and Economic Challenges:
+      - Pocket Road Survey and Dispute Resolution: 18-pocket-road-survey-and-dispute-resolution.md
+      - Financial Fraud Prevention and Family Counseling: 19-financial-fraud-prevention-and-family-counseling.md
+  - Future Development and Church Governance:
+      - Data-Driven Church Governance and Action Plan: 20-data-driven-governance-and-action-plan.md
+
+theme:
+  name: readthedocs
