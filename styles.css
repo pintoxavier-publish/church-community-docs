@@ -48,6 +48,31 @@ h1 {
   color: var(--brand-dark);
   font-weight: 600;
 }
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0 20px;
+}
+.btn {
+  display: inline-block;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--brand-dark);
+  padding: 10px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn.primary {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+}
+.btn:hover {
+  opacity: 0.96;
+}
 ul {
   list-style: none;
   padding: 0;
@@ -76,4 +101,9 @@ li a:hover {
   margin-top: 20px;
   color: var(--muted);
   font-size: 0.9rem;
+}
+@media print {
+  .actions, .footer-note { display: none; }
+  body { background: #fff; }
+  .card { box-shadow: none; border: none; }
 }
